@@ -4,3 +4,4 @@ MANIFEST
 README
 t/Voicent.t
 lib/Voicent.pm
+META.yml                                 Module meta-data (added by MakeMaker)

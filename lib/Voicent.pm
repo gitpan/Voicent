@@ -26,7 +26,7 @@ our %EXPORT_TAGS = ( 'all' => [ @EXPORT ] );
 
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
-our $VERSION = '0.01';
+our $VERSION = '1.1';
 
 # change to the host name for your installation
 $Voicent::host = "localhost";
@@ -158,7 +158,15 @@ __END__
 
 =head1 NAME
 
-Voicent - Perl interface for making telephone calls using Voicent Gateway
+Voicent - Interface for making telephone calls using Voicent Gateway
+
+This is the perl interface module for Voicent Gateway, a VoiceXML 
+gateway. You can use this interface module to make telephone calls
+from your perl program, provided that the Voicent Gateway is
+installed and can be accessed through HTTP. There is a FREE version
+of Voicent Gateway program downloadable from:
+
+http://www.voicent.com/download
 
 =head1 SYNOPSIS
 
